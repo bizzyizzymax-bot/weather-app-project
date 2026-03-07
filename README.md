@@ -1,4 +1,4 @@
-#Weather App Project
+# Weather App Project
 Here I architected a weather app project where I uses the OpenWeather API using an API key and implemeneted into my Javascript module.
 
 ## Live Demo:
