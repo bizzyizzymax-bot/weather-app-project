@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <video
+      class="background-img"
+      src="images/wind.mp4"
+      autoplay
+      loop
+      muted
+    ></video>
+    <div class="main">
+      <p class="title">What's the weather like today?</p>
+      <div class="temp">
+        <p class="temp-desc">Overcast Clouds</p>
+        <p class="city-name">Charlotte, US</p>
+        <p class="city-temp">25.7 Celcius</p>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Enter city name" id="cityInput" />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="other-info">
+        <p class="Min">Min: 25.35</p>
+        <p class="Max">Max: 26.82</p>
+        <p class="humidity">Humidity: 59%</p>
+      </div>
+    </div>
+  </body>
+</html>
