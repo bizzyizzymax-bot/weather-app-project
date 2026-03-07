@@ -13,4 +13,5 @@ https://bizzyizzymax-bot.github.io/weather-app-project/
 
 ## What I learned:
 -How to use async and promise functions
+
 -How to try a promise and throw and error if the requested information fails
