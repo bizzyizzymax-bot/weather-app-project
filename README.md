@@ -12,6 +12,4 @@ https://bizzyizzymax-bot.github.io/weather-app-project/
 -Javascript, HTML5, CSS, OpenWeather API
 
 ## What I learned:
--How to use async and promise functions
-
--How to try a promise and throw and error if the requested information fails
+-How to use async and promise functions!
