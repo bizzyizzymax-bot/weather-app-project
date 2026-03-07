@@ -1,4 +1,6 @@
-const apiKey = "7295f831fb74381c14dbf10448950b76";
+import { getAPIKey } from "./config.js";
+
+apiKey = getAPIKey();
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -61,5 +63,3 @@ async function fetchWeather(city) {
     alert(error.message);
   }
 }
-
-// Fetch weather for a default city on page load
