@@ -14,4 +14,4 @@ https://bizzyizzymax-bot.github.io/weather-app-project/
 ## What I learned:
 -How to use async and promise functions!
 
--How to fetch information from an API
+-How to fetch information from an API and understand JSON format
